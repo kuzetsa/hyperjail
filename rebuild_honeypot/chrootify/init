@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo -e "[$(date --rfc-2822)] This is a secure system.\n" \
+"Unauthorized access is logged and will be reported."
+
+# interactive shell
+sh -l
+
+echo "[$(date --rfc-2822)] powering off."
+/sbin/poweroff -f
+
+# todo: enable logging

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# this isn't actually a copy of busybox, you need to build it.
+
+# use musl, glibc, or whatever you want.
+
+# the configurator tool for busybox itself is easy.
+
+# it gives you the option for static linked, etc.
+
+# and now for the readme to output something:
+
+echo 'stat busybox'
+
+# more stuff I guess
+
+echo 'file busybox'
+
+# this isn't a precompiled busybox.
+
+# (please provide your own)
